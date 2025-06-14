@@ -29,7 +29,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SynthLauncher', // Usually your GitHub org/user name.
   projectName: 'SynthLauncherDocs', // Usually your repo name.
-  deploymentBranch: "gh-pages",
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
