@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksynth_launcher_docs=self.webpackChunksynth_launcher_docs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/SynthLauncherDocs/blog","blogTitle":"Blog","authorsListPath":"/SynthLauncherDocs/blog/authors"}')}}]);
