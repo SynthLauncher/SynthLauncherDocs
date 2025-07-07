@@ -99,8 +99,13 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://discordapp.com/invite/synthlauncher',
+            href: 'https://discord.gg/3nCsfqF9YZ',
             label: 'Discord',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/SynthLauncher/SynthLauncherDocs/tree/main',
+            label: 'GitHub',
             position: 'right',
           },
         ],
