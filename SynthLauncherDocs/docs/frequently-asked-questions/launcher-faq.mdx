@@ -2,6 +2,10 @@
 sidebar_position: 1
 description: Common questions based on the launcher itself are addressed here.
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Launcher FAQ
 ## Is SynthLauncher a virus?
 No, SynthLauncher has never had any sort of malware, including spyware, adware, or viruses. It does not have any and will not have any. We are a fully open-source project, so anybody can view our 
@@ -10,4 +14,77 @@ Please be aware of **false positives**, however.
 
 ## Does SynthLauncher support Minecraft: Bedrock Edition?
 Unfortunately not at the moment, but there are plans for it to be added in the future. Currently, 
-SynthLauncher only supports Minecraft: Java Edition
+SynthLauncher only supports Minecraft: Java Edition.
+
+As of 2025, Minecraft: Bedrock Edition is only available on the following platforms:
+
+**Console:**
+- Xbox ONE, Xbox One X/S, Xbox Series X/S
+- PlayStation 3, 4 & 5
+- Nintendo Switch & Nintendo Switch 2
+
+**Mobile:**
+- iOS
+- Android
+- Amazon FireOS
+
+**Desktop:**
+- Windows 10 & 11
+- Raspberry Pi OS
+
+:::caution
+Minecraft: Bedrock Edition is not available on macOS or GNU/Linux as of yet, so when Bedrock support gets added to SynthLauncher you will not be able to play it.
+:::
+
+## Does SynthLauncher pirate Minecraft?
+This question is debatable.\
+Mojang publishes all Minecraft files on their own servers for anyone to use for any reason, as long as it doesn't violate the [Mojang EULA.](https://www.minecraft.net/en-us/eula) SynthLauncher
+follows the EULA, so it isn't pirating from a legal standpoint, but there might be certain ethical concerns. When you play the game without buying it, the Minecraft developers do not get any compensation for their work.\
+We understand there might be reasons you might not be able to get the game, such as:
+- You have the money, but not an applicable payment method
+- Your transaction might have not worked due to various reasons
+- You might simply not have money to spare ($30 could be a lot of money for you)\
+If this the only case, work hard, save up, and buy the game; you'll be supporting the developers 🙂
+
+However, if there is nothing restricting you from buying the game, please buy it!
+
+### Where can I buy the game?
+- The simplest method is buying from the [Minecraft website.](https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc)
+- You can buy physical or online gift cards. This depends on your region however, as certain gift cards might only be sold in certain places, and can only be redeemed in certain places.\
+You can redeem a code for Minecraft: Java & Bedrock edition at the [Minecraft code redemption page.](https://www.minecraft.net/en-us/redeem)
+:::caution
+Key selling websites or Discord servers (which shall not be named) might exist, but these bring either other ethical concerns or other risks. You might get scammed out of these! We do not recommend this method, but if you really want/need to use these sites, please proceed with extreme caution.
+:::
+
+## Where are SynthLauncher files located at?
+First, you should note that Minecraft (the game itself) and SynthLauncher (the medium of playing the game) are located in different directories on your computer, and depend on what Operating System you're using.
+
+### Default Minecraft location:
+<Tabs>
+  <TabItem value="windows" label="Windows" default>
+    `%AppData%\.minecraft`
+  </TabItem>
+  <TabItem value="macos" label="macOS">
+    `~/Library/Application Support/Minecraft`
+  </TabItem>
+  <TabItem value="linux" label="GNU/Linux">
+    `~/Minecraft`
+  </TabItem>
+</Tabs>
+
+### Default SynthLauncher location:
+<Tabs>
+  <TabItem value="windows" label="Windows" default>
+    `%AppData%\SynthLauncher`
+  </TabItem>
+  <TabItem value="macos" label="macOS">
+    `~/Library/Application Support/SynthLauncher`
+  </TabItem>
+  <TabItem value="linux" label="GNU/Linux">
+    `~/.synthlauncher`
+  </TabItem>
+</Tabs>
+
+## Can I login to SynthLauncher with a Microsoft account if I own Minecraft: Bedrock Edition?
+- If you own Minecraft: Bedrock Edition on PC, you should also be able to fully access Minecraft: Java Edition if you have set up your username first. You can do this by logging into the official Minecraft Launcher.
+- However, if you only own Minecraft: Bedrock Edition on console or mobile you cannot access Minecraft: Java Edition on PC as the PC version is sold seperately.
