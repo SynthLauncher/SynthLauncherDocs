@@ -1,0 +1,8 @@
+{
+  "label": "Modding",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Tutorials for modding SynthLauncher and Minecraft"
+  }
+}
