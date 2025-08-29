@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SynthLauncher Contributors`,
+        copyright: `Copyright © ${new Date().getFullYear()} SynthLauncher Organization & Contributors <br/> Made with ❤️ in Georgia & New Zealand`,
       },
       prism: {
         theme: prismThemes.github,
