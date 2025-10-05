@@ -89,13 +89,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Home',
-          },
           //{to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://synthlauncher.vercel.app',
+            label: 'Main Website',
+            position: 'right',
+          },
           {
             href: 'https://discord.gg/3nCsfqF9YZ',
             label: 'Discord',
@@ -103,7 +102,12 @@ const config = {
           },
           {
             href: 'https://github.com/SynthLauncher/SynthLauncherDocs/tree/main',
-            label: 'GitHub',
+            label: 'Wiki GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/SynthLauncher/SynthLauncher',
+            label: 'Launcher GitHub',
             position: 'right',
           },
         ],
@@ -112,11 +116,17 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Resources',
             items: [
               {
+                label: 'Main Website (Outdated, new site WIP)',
+                href: 'https://synthlauncher.vercel.app',
+                position: 'left',
+              },
+              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/synthlauncher',
+                href: 'https://discord.gg/3nCsfqF9YZ',
+                positon: 'left',
               },
             ],
           },
